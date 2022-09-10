@@ -5,7 +5,7 @@
 int M[40];
 int tmax=0;
 int tmin=0;
-double max;
+int max;
 int main()
 {   for(int t=0;t<40;t++) {M[t]=rand();
     printf("%d\n",M[t]);}
@@ -16,7 +16,7 @@ int main()
 
     if(M[t]<M[tmin])
     tmin=t;}
-    printf("\nmax=%f\n",max);
+    printf("\nmax=%d\n",max);
     printf("\ntmin=%d\n",tmax);
   return(0) ;
 
